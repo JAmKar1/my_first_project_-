@@ -1,4 +1,9 @@
-def add(x, y):
-      return x + y
-      def subtract(x, y):
-        213  return x - y
+def multiply(x, y):
+   return x * y
+
+def main():
+   print("Hello, Team!")
+   print(f"2 * 3 = {multiply(2, 3)}")
+
+if __name__ == "__main__":
+   main()
